@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversão Binário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Conversão de Número Binários para Decimais</h1>
+  <label for="codigo">Digite 8 dígitos:</label>
+  <input type="text" id="binario" maxlength="8" pattern="\d{8}" placeholder="Ex: 12345678" required oninput="validarBinario()">
+  <p id="erro"></p>
+  <button onclick="calcularDecimal()">Calcular</button>
+
+  <p id="resultado"></p> <!-- Não consigo atualizar esse p quando não tem dado -->
+
+<script src="script.js"></script> <!-- Link para o JS -->
+
+</body>
+</html>
